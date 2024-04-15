@@ -1,0 +1,42 @@
+{
+  "name": "fguard",
+  "version": "1.3.0",
+
+  "type": "module",
+  "description": "fguard is a powerful npm package for securely encrypting and decrypting sensitive password in your node js app.Utilizing advanced cryptographic techniques, fguard ensures that your passwords remain protected from unauthorized access.",
+<<<<<<< HEAD
+  "main": "index.cjs",
+  "module": "index.mjs",
+  "exports": {
+    ".": {
+      "require": "./index.cjs",
+=======
+  "main": "index.js",
+  "module": "index.mjs",
+  "exports": {
+    ".": {
+      "require": "./index.js",
+>>>>>>> aa651ff (support for both common js and es6)
+      "import": "./index.mjs"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fahad-2022skipq/fguard.git"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "Fahad Ali",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/fahad-2022skipq/fguard/issues"
+  },
+  "homepage": "https://github.com/fahad-2022skipq/fguard#readme",
+  "dependencies": {
+    "crypto": "^1.0.1"
+  }
+}
