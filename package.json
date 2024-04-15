@@ -4,19 +4,11 @@
 
   "type": "module",
   "description": "fguard is a powerful npm package for securely encrypting and decrypting sensitive password in your node js app.Utilizing advanced cryptographic techniques, fguard ensures that your passwords remain protected from unauthorized access.",
-<<<<<<< HEAD
   "main": "index.cjs",
   "module": "index.mjs",
   "exports": {
     ".": {
       "require": "./index.cjs",
-=======
-  "main": "index.js",
-  "module": "index.mjs",
-  "exports": {
-    ".": {
-      "require": "./index.js",
->>>>>>> aa651ff (support for both common js and es6)
       "import": "./index.mjs"
     }
   },
