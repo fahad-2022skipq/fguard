@@ -14,10 +14,4 @@ export function decrypt(encryptedText, key) {
     let decrypted = decipher.update(encryptedText, 'hex', 'utf8');
     decrypted += decipher.final('utf8');
     return decrypted;
-<<<<<<< HEAD
 }
-=======
-}
-
-
->>>>>>> aa651ff (support for both common js and es6)
